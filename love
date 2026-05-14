@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>I Love Janudi</title>
+
+<style>
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#ff0080,#ffcc00,#00c3ff);
+    font-family:cursive;
+    overflow:hidden;
+}
+
+.text{
+    text-align:center;
+    animation:zoom 2s infinite alternate;
+}
+
+h1{
+    font-size:60px;
+    color:white;
+    text-shadow:0 0 10px red,
+                 0 0 20px yellow,
+                 0 0 30px pink;
+}
+
+p{
+    font-size:35px;
+    color:#fff;
+    text-shadow:0 0 10px blue,
+                 0 0 20px purple;
+}
+
+@keyframes zoom{
+    from{
+        transform:scale(1);
+    }
+    to{
+        transform:scale(1.1);
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="text">
+    <h1>❤️ I LOVE JANUDI ❤️</h1>
+    <p>તું મારી દુનિયા છે ✨</p>
+    <p>હંમેશા તને પ્રેમ કરું છું 💖</p>
+</div>
+
+</body>
+</html>
